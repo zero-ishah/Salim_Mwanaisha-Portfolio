@@ -8,7 +8,7 @@ Welcome to my personal portfolio website! This project was built as part of the 
 
 > **Live Site**: [Click here to view it!](https://zero-ishah.github.io/portfolio-site)
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - **HTML5**
 - **CSS3**
