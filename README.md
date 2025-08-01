@@ -6,7 +6,7 @@ portfolio-site
 
 Welcome to my personal portfolio website! This project was built as part of the **PLP Academy July 2025 Hackathon 1** to showcase my skills, experience, and projects in a clean, mobile-friendly design.
 
-> **Live Site**: [[Click here to view it!](https://zero-ishah.github.io/portfolio-site)](https://zero-ishah.github.io/Salim_Mwanaisha-Portfolio/)
+> **Live Site**: (https://zero-ishah.github.io/Salim_Mwanaisha-Portfolio/)
 
 ## 🛠 Technologies Used
 
