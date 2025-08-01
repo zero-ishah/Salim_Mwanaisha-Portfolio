@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Mwanaisha Salim - Web Developer & Tech Enthusiast">
+  <title>Mwanaisha Salim | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#languages">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with Photo -->
+  <header>
+    <div class="profile-container">
+      <img src="images/profile.jpg" alt="Mwanaisha Salim" class="profile-pic" />
+      <div class="header-text">
+        <h1>Mwanaisha Salim</h1>
+        <p>Web Developer | Tech for Social Impact | PLP Academy</p>
+        <p>
+          <i class="fab fa-whatsapp"></i>
+          <a href="https://wa.me/254792416360" target="_blank">+254 792 416360</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated professional with a strong blend of technical and customer service skills. My journey in software and web development has equipped me with tools like Python, React.js, and SQL. I'm passionate about leveraging technology to solve real-world problems and aim to mentor others while building impactful solutions.</p>
+  </section>
+
+  <section id="languages">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>HTML/CSS</li>
+      <li>Dart & Flutter</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p><strong>Bachelor of Technology in Software Development</strong><br/>
+    KCA University, Nairobi, Kenya — Second Upper Class Honors</p>
+    <p>Relevant Coursework: Programming, Innovation, Strategic Management, Data Analysis, and Web Development.</p>
+    <a href="cv/mmy_cv_mms.pdf" download>📄 Download My CV</a>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <i class="fa-solid fa-database"></i>
+      <strong>Enzi Store Database System</strong> –
+      <a href="https://enzi-store.vercel.app" target="_blank">enzi-store.vercel.app</a>
+      <p>Robust store database for efficient data handling.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-laptop-code"></i>
+      <strong>Personal Portfolio Website</strong> –
+      <a href="https://eshaaasalim.vercel.app" target="_blank">eshaaasalim.vercel.app</a>
+      <p>Responsive SPA showcasing my skills and background.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-store"></i>
+      <strong>Just Got Better (Official Site)</strong> –
+      <a href="https://justgotbetter.vercel.app" target="_blank">justgotbetter.vercel.app</a>
+      <p>Wholesale eCommerce platform for shopkeepers.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-code-branch"></i>
+      <strong>Just Got Better (Version 1)</strong> –
+      <a href="https://version1-justgot-better.vercel.app/#" target="_blank">version1-justgot-better.vercel.app</a>
+      <p>Early MVP version of the B2B platform.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-paint-brush"></i>
+      <strong>Graphibytes</strong> –
+      <a href="https://graphibytes.vercel.app/" target="_blank">graphibytes.vercel.app</a>
+      <p>Digital services and branding portfolio site.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <strong>Kenya Shop</strong> –
+      <a href="https://kenyashop.vercel.app/" target="_blank">kenyashop.vercel.app</a>
+      <p>Product listing storefront for online buyers.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-users"></i>
+      <strong>Student Management System</strong>
+      <p>System to manage academic records and enrollments.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-chart-line"></i>
+      <strong>Data Analysis Project</strong>
+      <p>Used Python libraries to generate business insights.</p>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-school"></i>
+      <strong>School-Based Management System</strong>
+      <p>Automation tool for school administrative tasks.</p>
+    </div>
+
+    <a href="https://github.com/zero-ishah" target="_blank" class="btn">See More Projects on GitHub</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:mwanaishabayaa@gmail.com">mwanaishabayaa@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mwanaisha-salim-32b270285/" target="_blank">Mwanaisha Salim</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mwanaisha Salim.</p>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+    window.onscroll = function () {
+      scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    scrollTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  </script>
+</body>
+</html>
